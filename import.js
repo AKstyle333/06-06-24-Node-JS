@@ -23,8 +23,8 @@
 // object2()
 
 // (5) => export object and use many with destructure
-const { object1, object2, object3, object4 } = require("./export");
-object1()
-object2()
-object3()
-object4()
+// const { object1, object2, object3, object4 } = require("./export");
+// object1()
+// object2()
+// object3()
+// object4()

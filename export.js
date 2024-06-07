@@ -58,17 +58,17 @@
 
 // (5) => export object and use many with destructure
 
-const object1 = () => {
-    console.log("5th (1) export object and use many with destructure");
-};
-const object2 = () => {
-    console.log("5th (2) export object and use many with destructure");
-};
-const object3 = () => {
-    console.log("5th (3) export object and use many with destructure");
-};
-const object4 = () => {
-    console.log("5th (4) export object and use many with destructure");
-};
+// const object1 = () => {
+//     console.log("5th (1) export object and use many with destructure");
+// };
+// const object2 = () => {
+//     console.log("5th (2) export object and use many with destructure");
+// };
+// const object3 = () => {
+//     console.log("5th (3) export object and use many with destructure");
+// };
+// const object4 = () => {
+//     console.log("5th (4) export object and use many with destructure");
+// };
 
-module.exports = { object1, object2, object3, object4 };
+// module.exports = { object1, object2, object3, object4 };
