@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const movie_Schema = mongoose.Schema(
     {
         movie_name: {
-            type: string,
+            type: String,
             trim: true,
         },
         rating: {

@@ -1,0 +1,1 @@
+module.exports.movie_Service = require("./movie.service")
