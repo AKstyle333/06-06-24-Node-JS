@@ -2,6 +2,7 @@ const { movie_Service } = require("../services")
 
 const create_movies =async (req,res)=>{
      try {
+         // need services
         const data = req.body
         const new_movie = await movie_Service.create_movies_S(data)
         res.status(200).json({
