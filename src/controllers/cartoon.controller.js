@@ -71,7 +71,8 @@ const update_cartoon = async (req, res) => {
         res.status(200).json({
             success: true,
             message: "Cartoon Update successfully",
-            data: update_cartoon,
+            update_data:data,
+            old_data: update_cartoon,
         });
     } catch (error) {
         res.status(400).json({

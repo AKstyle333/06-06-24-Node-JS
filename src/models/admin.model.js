@@ -11,6 +11,10 @@ const admin_Schema = mongoose.Schema(
             type: Number,
             default: 9998887776,
         },
+        fav_cartoon:{
+            type: mongoose.Types.ObjectId,
+            ref: "Cartoon",
+        }
     },
     {
         timestamps: true,

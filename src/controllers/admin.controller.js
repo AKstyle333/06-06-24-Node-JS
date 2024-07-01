@@ -62,7 +62,8 @@ const update_admin = async (req, res) => {
         res.status(200).json({
             success: true,
             message: "admin updated",
-            data: update_admin,
+            update_data:data,
+            old_data: update_admin,
         });
     } catch (error) {
         res.status(400).json({

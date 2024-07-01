@@ -4,7 +4,7 @@ const create_admin_S = (data) =>{
     return Admin.create(data)
 }
 const get_admin_S = () =>{
-    return Admin.find()
+    return Admin.find().populate("fav_cartoon");
 }
 const delete_admin_S = (id) =>{
     return Admin.findByIdAndDelete(id)
