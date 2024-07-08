@@ -2,7 +2,7 @@ const { admin_Service } = require("../services");
 
 const create_admin = async (req, res) => {
     try {
-        // services
+        //! services
         const data = req.body;
         const new_admin = await admin_Service.create_admin_S(data);
         if (!new_admin) {
@@ -22,7 +22,7 @@ const create_admin = async (req, res) => {
 };
 const get_admin = async (req, res) => {
     try {
-        // services
+        //! services
         const list_admin = await admin_Service.get_admin_S();
         res.status(200).json({
             success: true,
@@ -38,7 +38,7 @@ const get_admin = async (req, res) => {
 };
 const delete_admin = async (req, res) => {
     try {
-        // services
+        //! services
         const id = req.params.id;
         const delete_admin = await admin_Service.delete_admin_S(id);
         res.status(200).json({
@@ -55,7 +55,7 @@ const delete_admin = async (req, res) => {
 };
 const update_admin = async (req, res) => {
     try {
-        // services
+        //! services
         const id = req.params.id;
         const data = req.body;
         const update_admin = await admin_Service.update_admin_S(id, data);
